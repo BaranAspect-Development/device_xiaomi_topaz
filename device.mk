@@ -23,7 +23,8 @@ PRODUCT_PACKAGES += \
     SettingsOverlayM7N \
     SettingsOverlayM7L \
     SettingsOverlayM7IN \
-    SystemUIResTopaz
+    SystemUIResTopaz \
+    WifiResTopaz
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
