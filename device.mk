@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTopaz \
+    SettingsProviderResTopaz \
     SettingsResTopaz \
     SettingsOverlayM7G \
     SettingsOverlayM7N \
