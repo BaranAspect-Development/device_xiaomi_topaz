@@ -16,6 +16,7 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    ApertureResTopaz \
     FrameworksResTopaz \
     SettingsProviderResTopaz \
     SettingsResTopaz \
