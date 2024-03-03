@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ApertureResTopaz \
     FrameworksResTopaz \
+    NotchBarKiller \
     SettingsProviderResTopaz \
     SettingsResTopaz \
     SettingsOverlayM7G \
