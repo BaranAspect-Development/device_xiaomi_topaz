@@ -10,6 +10,10 @@ $(call inherit-product, device/xiaomi/sm6225-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/topaz/topaz-vendor.mk)
 
+# Audio
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTopaz \
