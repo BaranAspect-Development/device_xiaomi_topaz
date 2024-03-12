@@ -39,3 +39,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(KERNEL_PATH)/modules/ramdisk/,$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/modules) \
     $(call find-copy-subdir-files,*,$(KERNEL_PATH)/modules/system/,$(TARGET_COPY_OUT_SYSTEM_DLKM)/lib/modules/5.15.94) \
     $(call find-copy-subdir-files,*,$(KERNEL_PATH)/modules/vendor/,$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules)
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/properties/vendor.prop
