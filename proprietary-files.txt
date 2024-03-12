@@ -451,10 +451,8 @@ product/etc/displayconfig/display_id_4630946444529356673.xml:vendor/etc/displayc
 product/etc/displayconfig/display_id_4630946914797301377.xml:vendor/etc/displayconfig/display_id_4630946914797301377.xml
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_lc
 vendor/etc/permissions/com.fingerprints.extension.xml
 vendor/etc/permissions/qti_fingerprint_interface.xml
-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
 vendor/framework/com.fingerprints.extension.jar
 vendor/lib64/android.hardware.biometrics.common-V2-ndk.so
 vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
