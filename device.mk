@@ -12,7 +12,8 @@ $(call inherit-product, vendor/xiaomi/topaz/topaz-vendor.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc) \
+    $(LOCAL_PATH)/configs/audio/mixer_paths_bengal_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_bengal_idp_india.xml
 
 # Overlays
 PRODUCT_PACKAGES += \
