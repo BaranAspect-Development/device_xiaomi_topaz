@@ -13,6 +13,9 @@ include vendor/xiaomi/topaz/BoardConfigVendor.mk
 DEVICE_PATH := device/xiaomi/topaz
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_topaz
 TARGET_RECOVERY_DEVICE_MODULES := init_topaz
