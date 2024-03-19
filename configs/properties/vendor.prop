@@ -1,2 +1,5 @@
 # Fingerprint
 ro.hardware.fp.sideCap=true
+
+# WLAN
+ro.hardware.wlan.chip=wcn3950
