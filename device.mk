@@ -19,6 +19,10 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc) \
     $(LOCAL_PATH)/configs/audio/mixer_paths_bengal_idp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_bengal_idp_india.xml
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureResTopaz \
