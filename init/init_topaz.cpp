@@ -58,26 +58,32 @@ void property_override(string prop, string value)
 
 void load_redmi_topaz() {
     property_override("bluetooth.device.default_name", "Redmi Note 12");
+    property_override("bluetooth.device.default_name", "Redmi Note 12 4G NFC");
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.device", "topaz");
     property_override("ro.product.manufacturer", "Xiaomi");
     property_override("ro.product.marketname", "Redmi Note 12");
+    property_override("ro.product.marketname", "Redmi Note 12 4G NFC");
     property_override("ro.product.model", "23021RAA2Y");
     property_override("ro.product.mod_device", "topaz_global");
     property_override("ro.product.name", "topaz_global");
     property_override("vendor.usb.product_string", "Redmi Note 12");
+    property_override("vendor.usb.product_string", "Redmi Note 12 4G NFC");
 }
 
 void load_redmi_tapas() {
     property_override("bluetooth.device.default_name", "Redmi Note 12");
+    property_override("bluetooth.device.default_name", "Redmi Note 12 4G");
     property_override("ro.product.brand", "Redmi");
     property_override("ro.product.device", "tapas");
     property_override("ro.product.manufacturer", "Xiaomi");
     property_override("ro.product.marketname", "Redmi Note 12");
+    property_override("ro.product.marketname", "Redmi Note 12 4G");
     property_override("ro.product.model", "23021RAAEG");
     property_override("ro.product.mod_device", "tapas_global");
     property_override("ro.product.name", "tapas_global");
     property_override("vendor.usb.product_string", "Redmi Note 12");
+    property_override("vendor.usb.product_string", "Redmi Note 12 4G");
 }
 
 void vendor_load_properties() {
