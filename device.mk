@@ -37,6 +37,14 @@ PRODUCT_PACKAGES += \
     SystemUIResTopaz \
     WifiResTopaz
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-service \
+    android.hardware.power@1.2.vendor
+
+PRODUCT_COPY_FILES += \
+    vendor/qcom/opensource/power/config/bengal/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
