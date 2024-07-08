@@ -14,7 +14,7 @@ DEVICE_PATH := device/xiaomi/topaz
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 440
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_topaz
