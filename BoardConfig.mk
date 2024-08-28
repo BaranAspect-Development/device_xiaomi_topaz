@@ -23,6 +23,9 @@ TARGET_RECOVERY_DEVICE_MODULES := init_topaz
 
 INLINE_KERNEL_BUILDING := true
 
+# Inherit from proprietary files for miuicamera
+-include device/xiaomi/miuicamera-topaz/BoardConfig.mk
+
 # Kernel prebuilt
 BOARD_USES_DT := true
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtbs

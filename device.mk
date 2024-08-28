@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/sm6225-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/topaz/topaz-vendor.mk)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, device/xiaomi/miuicamera-topaz/device.mk)
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
