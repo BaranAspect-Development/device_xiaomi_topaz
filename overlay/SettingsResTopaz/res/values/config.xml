@@ -46,4 +46,7 @@
           <item>267</item>
      </integer-array>
 
+    <!-- Whether device supports increased touch sensitivity -->
+    <bool name="config_supportTouchPollingMode">true</bool>
+
 </resources>
